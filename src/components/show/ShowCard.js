@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Star } from '../styled';
+
 import { StyledShowCard } from './ShowCard.styled';
+import { Star } from '../styled';
 
 const ShowCard = ({ id, image, name, summary, onStarClick, isStarred }) => {
   const summaryAsText = summary

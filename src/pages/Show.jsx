@@ -20,7 +20,6 @@ const Show = () => {
     return <div>Error occured: {error}</div>;
   }
 
-
   return (
     <ShowPageWrapper>
       <ShowMainData
