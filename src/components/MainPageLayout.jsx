@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {memo} from 'react';
 import Navs from './Navs';
 import Title from './Title';
 
@@ -16,4 +16,4 @@ const MainPageLayout = ({ children }) => {
   );
 };
 
-export default MainPageLayout;
+export default memo(MainPageLayout);
